@@ -25,8 +25,8 @@ struct WeatherData {
     String wind_dir;
 } weather;
 
-Adafruit_BME280 bme; // utworzenie instancji klasy czujnika bme (cisnienia, temp i wilg)
-BH1750 lightMeter;   // utworzenie instancji klasy czujnika BH1750 (jasnosci)
+Adafruit_BME280 bme;
+BH1750 lightMeter;
 
 unsigned long delayTime = 1000;
 bool status;         // BME280 availability state ('true' if the sensor is available)
